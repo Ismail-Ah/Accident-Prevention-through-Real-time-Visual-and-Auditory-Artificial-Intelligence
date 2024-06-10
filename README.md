@@ -5,7 +5,7 @@ Pour permettre une prévention des collisions robuste, le système exploite la p
 
 L'intégration de différents modèles améliore encore les capacités du système. Par exemple, le modèle "[Depth Anything](https://github.com/LiheYoung/Depth-Anything)", conçu pour estimer la profondeur à partir d'images monoculaires, utilise des techniques avancées d'apprentissage automatique. En interprétant et en transformant les images 2D en cartes de profondeur détaillées, ce modèle fournit des informations spatiales essentielles nécessaires pour prédire avec précision les collisions.
 
-![Depth Anything Model Architecture](/images/depth1.png)
+![Depth Anything Model Architecture](/images/depth1.png "Depth Anything Model Architecture")
 
 ![Depth Anything Example](/images/Image1.png)
 
