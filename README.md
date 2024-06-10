@@ -7,18 +7,18 @@ L'intégration de différents modèles améliore encore les capacités du systè
 
 ![Depth Anything Model Architecture](/images/depth1.png "Depth Anything Model Architecture")
 
-![Depth Anything Example](/images/Image1.png)
+![Depth Anything Example](/images/Image1.png "Depth Anything Example")
 
 En plus de l'estimation de la profondeur, le système utilise (YOLOv8)[https://docs.ultralytics.com/tasks/pose//] pour la détection rapide et précise des poses humaines. Cette capacité est particulièrement cruciale pour la prévention des collisions en temps réel, surtout dans les scénarios où la présence humaine influence considérablement les risques de collision.
 
-![Image avec détection d'objet YOLOv8](/images/Image4.png)
+![Image avec détection d'objet YOLOv8](/images/Image4.png "Image avec détection d'objet YOLOv8")
 
 Pour améliorer l'évaluation des risques de collision, le projet introduit une nouvelle méthodologie utilisant une segmentation perspective trapézoïdale. Cette segmentation divise l'espace visuel en trois zones distinctes en fonction de la distance des objets, améliorant ainsi la capacité du système à évaluer les niveaux de risque de collision et à prendre des mesures préventives en conséquence.
 
-![Exemple du trapèze appliqué à Depth Anything.](/images/Image2.png)
+![Exemple du trapèze appliqué à Depth Anything.](/images/Image2.png "Exemple du trapèze appliqué à Depth Anything")
 
 Le traitement en temps réel est réalisé grâce à des algorithmes optimisés et à du matériel performant. Cela garantit une analyse et une réponse instantanées des données, permettant au système de suivre un flux de traitement rationalisé, de la capture vidéo à la détection des collisions en passant par la génération d'alertes, facilitant ainsi une prise de décision rapide et efficace.
 
-![YOLO et Trapèze](/images/Image3.png)
+![YOLO et Trapèze](/images/Image3.png "Exemple du trapèze et YOLO appliqyé à une image")
 
 Dans l'ensemble, l'intégration et la réalisation de ce projet représentent une avancée significative dans la technologie de prévention des collisions. Avec des applications allant des véhicules autonomes aux systèmes de sécurité industrielle, le système vise à améliorer la sécurité et l'efficacité dans des environnements dynamiques en exploitant des technologies de pointe et des méthodologies innovantes.
