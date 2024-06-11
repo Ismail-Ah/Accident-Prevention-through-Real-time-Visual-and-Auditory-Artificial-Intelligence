@@ -9,7 +9,7 @@ L'intégration de différents modèles améliore encore les capacités du systè
 
 ![Depth Anything Example](/images/Image1.png "Depth Anything Example")
 
-En plus de l'estimation de la profondeur, le système utilise (YOLOv8)[https://docs.ultralytics.com/tasks/pose//] pour la détection rapide et précise des poses humaines. Cette capacité est particulièrement cruciale pour la prévention des collisions en temps réel, surtout dans les scénarios où la présence humaine influence considérablement les risques de collision.
+En plus de l'estimation de la profondeur, le système utilise [YOLOv8](https://docs.ultralytics.com/tasks/pose//) pour la détection rapide et précise des poses humaines. Cette capacité est particulièrement cruciale pour la prévention des collisions en temps réel, surtout dans les scénarios où la présence humaine influence considérablement les risques de collision.
 
 ![Image avec détection d'objet YOLOv8](/images/Image4.png "Image avec détection d'objet YOLOv8")
 
